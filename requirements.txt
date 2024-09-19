@@ -11,14 +11,14 @@ dash-table==4.7.0
 Flask==1.1.2
 Flask-Compress==1.5.0
 future==0.18.2
-gunicorn==20.0.4
+gunicorn==22.0.0
 heroku==0.1.4
 idna==2.9
 itsdangerous==1.1.0
 Jinja2==2.11.3
-joblib==0.15.1
+joblib==1.1.1
 MarkupSafe==1.1.1
-numpy==1.18.4
+numpy==1.22.2
 pandas==1.0.3
 plotly==4.7.1
 python-dateutil==2.8.1
@@ -32,3 +32,4 @@ sklearn==0.0
 threadpoolctl==2.0.0
 urllib3==1.25.9
 Werkzeug==1.0.1
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
